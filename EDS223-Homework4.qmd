@@ -1,0 +1,41 @@
+---
+title: "EDS223-Homework4"
+author: "Maddy Enda"
+format: html
+editor: visual
+---
+
+## Assignment 4 Criteria:
+
+- In this assignment, we are seeking to identify which 'Exclusive Economic Zones' on the western coast of the United States would be best suited to aquaculture of oysters and mussels. 
+
+The criteria to be met by this assignemnt (reproducibles) are as follows:
+- arguments:
+minimum and maximum sea surface temperature
+minimum and maximum depth
+species name
+- outputs:
+map of EEZ regions colored by amount of suitable area
+species name should be included in the map’s title
+
+
+First, I will start off by loading in our libraries and assigning the data to variables
+
+### Running Libraries and Importing Data:
+
+```{r, echo=FALSE, message=FALSE}
+#running libraries
+library(tidyverse)
+library(dplyr)
+library(here)
+library(tmap)
+library(terra)
+library(sf)
+library(stars)
+library(RColorBrewer)
+```
+
+```{r}
+
+```
+
