@@ -6,7 +6,7 @@ Mariculture (or marine aquaculture) is the process of cultivating marine species
 
 For example, many species of filter feeders can be cultivated with almost no additional input from the fishers, as they feed on plankton and detritus suspended in the water column and do not need space to move around. Many lines seeded with juveniles can be dropped into the water column, suspended from floats, and easily harvested when they are fully grown in a 1-2 years time. In lieu of this, I was interested in the West Coast's potential to cultiavte oysters and mussels, two species desirable as a food source both locally and abroad. 
 
-To accurately predict where these species could be aquacultured, I had to find areas along the western coast of the US that were both the appropriate depth and temperature for these species. Using the format developed to predict this potential area for oyster cultivation, I created a function tht can predict potential area for aquaculture of any species given it's desired temperature and depth range.
+To accurately predict where these species could be aquacultured, I had to find areas along the western coast of the US that were both the appropriate depth and temperature for these species. Using the format developed to predict this potential area for oyster cultivation, I created a function tht can predict potential area for aquaculture of any species in the Exclusive Economic Zone(EEZ) of the US, given it's desired temperature and depth range.
 
  
 ![Mariculture of Oysters: middlesoundmariculture.com](https://img1.wsimg.com/isteam/ip/e6715026-e6cc-42bb-a6e0-c2abe7d97162/DJI_0550.jpg/:/) 
@@ -30,34 +30,31 @@ In this project we were looking to:
 
 ## Data Access:
 This data was obtained from the instructor of EDS 223, compiled from sources below.
-All relevant data available [here](https://drive.google.com/file/d/14CauXFZkVh_6z2Euq0m1Sq1kHQ31fiMk/view?usp=drive_link).
+All relevant data available [here](https://drive.google.com/file/d/1u-iwnPDbe6ZK7wSFVMI-PpCKaRQ3RVmg/view).
 
-#### US EJScreen Data:
-The environmental justice block group data was compiled by the United States Environmental Protection Agency:Environmental Justice Screening and Mapping Tool. 
-<a href="https://www.epa.gov/ejscreen/purposes-and-uses-ejscreen" target="_blank">EPA: EJ Screen</a>
+#### California Mussel and Oyster Data
+The SeaLifeBase database compiles habitat and taxonomic data on a wide array of marine species. Both the mussel and oyster habitat data (SST and depth information) were acquired from this website. 
+<a href="https://www.sealifebase.ca/search.php" target="_blank">SeaLifeBase</a>
 
-#### HOLC Redlining Data:
-The Home Owner's Loan Corporation redlining data was complied by the Digital Scholarship Lab, at the University of Richmond as a part of the 'Mapping Inequality Project'. 
-<a href= "https://dsl.richmond.edu/panorama/redlining/data" target= "_blank">Mapping Inequality Project</a> 
+#### Bathymetry Data
+The bathymetry data was pulled from a database via 'General Bathymetric Chart of the Oceans' (GEBCO). 
+<a href="https://www.gebco.net/data_and_products/gridded_bathymetry_data/#area" target="_blank">GEBCO</a>
 
-#### Biodiversity Data:
-The biodiversity data came from the Cornell Lab of Ornthology, accessed via the Global Biodiversity Information Facility, which records species, location, and time for each observation. The specific subset of this data utilized was on bird biodiversity from 2021 to 2024. 
-<a href= "https://www.gbif.org/dataset/4fa7b334-ce0d-4e88-aaae-2e0c138d049e" target= "_blank">Bird Biodiversity</a> 
+#### Sea Surface Temperature Data:
+Sea Surface Temperature (SST) data was compiled via a 'National Oceanic and Atmospheric Administration' (NOAA) satellite, in a dataset called 'Daily Global 5km Satellite Sea Surface Temperature Anomaly' on the NOAA 'Coral Watch' website. 
+<a href= "https://coralreefwatch.noaa.gov/product/5km/index_5km_ssta.php" target= "_blank">Sea Surface Temperature Anomaly</a>  
 
 ## Resources:
 
 #### Project Description and Access to Data
 Oliver, Ruth. (2024). EDS 223: Geospatial Analysis and Remote Sensing, Masters of Environmental Data Science (MEDS) Program. University of California, Santa Barbara. <a href="https://eds-223-geospatial.github.io/" target="_blank">Geospatial Analysis and Remote Sensing</a>
 
-#### Description of HOLC Redlining
-Gee, G. C. (2008). A multilevel analysis of the relationship between institutional and individual racial discrimination and health status. American journal of public health, 98(Supplement_1), S48-S56.
+#### Benefits of Mariculture
+Hall, S. J., Delaporte, A., Phillips, M. J., Beveridge, M. & O’Keefe, M. Blue Frontiers: Managing the Environmental Costs of Aquaculture (The WorldFish Center, Penang, Malaysia, 2011).↩︎
 
-#### Ties to Higher HOLC Grade and Increased Greenery
-Nardone, A., Rudolph, K. E., Morello-Frosch, R., & Casey, J. A. (2021). Redlines and greenspace: the relationship between historical redlining and 2010 greenspace across the United States. Environmental health perspectives, 129(1), 017006.
+#### Mapping Aquaculture Potential
+Gentry, R. R., Froehlich, H. E., Grimm, D., Kareiva, P., Parke, M., Rust, M., Gaines, S. D., & Halpern, B. S. Mapping the global potential for marine aquaculture. Nature Ecology & Evolution, 1, 1317-1324 (2017).↩︎
 
-#### Ties to Lower HOLC Grade and Increased Ambient Temperature
-Hoffman, J. S., Shandas, V., & Pendleton, N. (2020). The effects of historical housing policies on resident exposure to intra-urban heat: a study of 108 US urban areas. Climate, 8(1), 12.
-
-#### Sampling Disparities Between Redlining and Non-Redlining Neighborhoods
-Ellis-Soto, D., Chapman, M., & Locke, D. H. (2023). Historical redlining is associated with increasing geographical disparities in bird biodiversity sampling in the United States. Nature Human Behaviour, 1-9.
+#### Bathymetry Data
+GEBCO Compilation Group (2022) GEBCO_2022 Grid (doi:10.5285/e0f0bb80-ab44-2739-e053-6c86abc0289c).↩︎
 
