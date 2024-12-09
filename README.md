@@ -43,7 +43,6 @@ The bathymetry data was pulled from a database via 'General Bathymetric Chart of
 
 #### Sea Surface Temperature Data:
 Sea Surface Temperature (SST) data was compiled via a 'National Oceanic and Atmospheric Administration' (NOAA) satellite, in a dataset called 'Daily Global 5km Satellite Sea Surface Temperature Anomaly' on the NOAA 'Coral Watch' website. 
-
 <a href= "https://coralreefwatch.noaa.gov/product/5km/index_5km_ssta.php" target= "_blank">Sea Surface Temperature Anomaly</a>  
 
 ## Resources:
