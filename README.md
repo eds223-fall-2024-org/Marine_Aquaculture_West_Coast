@@ -13,7 +13,7 @@ To accurately predict where these species could be aquacultured, I had to find a
 
 ## Repository Structure:
 ```
-Historic_Redlining_Los_Angeles
+Marine_Aquaculture_West_Coast
 │   README.md
 │   Marine_Aquaculture_Sites.qmd
 |   Marine_Aquaculture_Sites.html (rendered version)
